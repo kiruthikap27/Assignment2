@@ -15,6 +15,7 @@ function getInterval() {
 const printNumber = getInterval()
 console.log('print the numbers from 1 to 100 with the interval of 10',printNumber)
 
+
 /**
  * print the number from 10 to 1
  */
@@ -82,5 +83,5 @@ function getVoters(){
     }
 }
 const voters = getVoters()
-console.log('test',{eligibleVoters:voters?.eligibleVoters,nonEligibleVoters:voters?.nonEligibleVoters})
+console.log('Voter List',{eligibleVoters:voters?.eligibleVoters,nonEligibleVoters:voters?.nonEligibleVoters})
 
